@@ -9,6 +9,8 @@ usedAudioFiles = [audioA]
 
 var collectorNode = audioCtx.createGain();
 
+console.log("we did it");
+
 let nodeList = []
 for (file of usedAudioFiles) {
     file.crossOrigin="anonymous";
